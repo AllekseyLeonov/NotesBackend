@@ -1,0 +1,59 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Domain", "Domain", "{CF8151CB-D729-4CDC-A10D-BDA34E36E9AB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Notes.Domain.Core", "Notes.Domain.Core\Notes.Domain.Core.csproj", "{C60806C7-16B5-4DBC-A765-344A2189EB1D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Notes.Domain.Interfaces", "Notes.Domain.Interfaces\Notes.Domain.Interfaces.csproj", "{A7CE77C3-82C4-40BD-BFEE-C190A7CEA8C6}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Services", "Services", "{E360E883-0C96-4B20-A448-48728046B9BE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Notes.Services.Interfaces", "Notes.Services.Interfaces\Notes.Services.Interfaces.csproj", "{EC3B9CBF-8534-4EAC-8DBE-1B62C5E566CB}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Infrastructure", "Infrastructure", "{E491FDE3-E526-453F-A65D-7A203494D422}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Notes.Infrastructure.Data", "Notes.Infrastructure.Data\Notes.Infrastructure.Data.csproj", "{24E249E9-D1FF-4906-8458-5FFE821766A4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Notes.Infrastructure.Business", "Notes.Infrastructure.Business\Notes.Infrastructure.Business.csproj", "{122EBC5B-6DE8-426A-B1C6-81D2D98F9545}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NotesApi", "NotesApi\NotesApi.csproj", "{32074737-9497-4B4F-AB66-D023BE13296E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C60806C7-16B5-4DBC-A765-344A2189EB1D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C60806C7-16B5-4DBC-A765-344A2189EB1D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C60806C7-16B5-4DBC-A765-344A2189EB1D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C60806C7-16B5-4DBC-A765-344A2189EB1D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A7CE77C3-82C4-40BD-BFEE-C190A7CEA8C6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A7CE77C3-82C4-40BD-BFEE-C190A7CEA8C6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A7CE77C3-82C4-40BD-BFEE-C190A7CEA8C6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A7CE77C3-82C4-40BD-BFEE-C190A7CEA8C6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EC3B9CBF-8534-4EAC-8DBE-1B62C5E566CB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EC3B9CBF-8534-4EAC-8DBE-1B62C5E566CB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EC3B9CBF-8534-4EAC-8DBE-1B62C5E566CB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EC3B9CBF-8534-4EAC-8DBE-1B62C5E566CB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{24E249E9-D1FF-4906-8458-5FFE821766A4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{24E249E9-D1FF-4906-8458-5FFE821766A4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{24E249E9-D1FF-4906-8458-5FFE821766A4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{24E249E9-D1FF-4906-8458-5FFE821766A4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{122EBC5B-6DE8-426A-B1C6-81D2D98F9545}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{122EBC5B-6DE8-426A-B1C6-81D2D98F9545}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{122EBC5B-6DE8-426A-B1C6-81D2D98F9545}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{122EBC5B-6DE8-426A-B1C6-81D2D98F9545}.Release|Any CPU.Build.0 = Release|Any CPU
+		{32074737-9497-4B4F-AB66-D023BE13296E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{32074737-9497-4B4F-AB66-D023BE13296E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{32074737-9497-4B4F-AB66-D023BE13296E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{32074737-9497-4B4F-AB66-D023BE13296E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{C60806C7-16B5-4DBC-A765-344A2189EB1D} = {CF8151CB-D729-4CDC-A10D-BDA34E36E9AB}
+		{A7CE77C3-82C4-40BD-BFEE-C190A7CEA8C6} = {CF8151CB-D729-4CDC-A10D-BDA34E36E9AB}
+		{EC3B9CBF-8534-4EAC-8DBE-1B62C5E566CB} = {E360E883-0C96-4B20-A448-48728046B9BE}
+		{24E249E9-D1FF-4906-8458-5FFE821766A4} = {E491FDE3-E526-453F-A65D-7A203494D422}
+		{122EBC5B-6DE8-426A-B1C6-81D2D98F9545} = {E491FDE3-E526-453F-A65D-7A203494D422}
+	EndGlobalSection
+EndGlobal
